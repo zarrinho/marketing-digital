@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Digital - Aprenda e Faça Dinheiro</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link para Google Fonts para fontes mais bonitas -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        /* Usando uma fonte mais estilosa */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Definindo a imagem de fundo desfocada */
+        header {
+            position: relative;
+            background-image: url('sua_imagem_de_fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+            background-size: cover;
+            background-position: center;
+            height: 50vh; /* Reduzido ainda mais o tamanho da barra */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        /* Camada de desfoque */
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Camada escura sobre a imagem */
+            filter: blur(10px); /* Intensidade do desfoque */
+            z-index: 1;
+        }
+
+        .logo {
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo h1 {
+            font-family: 'Poppins', sans-serif; /* Usando uma fonte mais estilosa para o título */
+            font-size: 2.5em; /* Diminuído o tamanho da fonte */
+            font-weight: bold;
+            margin: 0;
+        }
+
+        /* Ajuste para o botão do Discord */
+        #discord button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            background-color: #7289da;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #discord button:hover {
+            background-color: #5d6fa1;
+        }
+
+        /* Ajustes adicionais */
+        section {
+            padding: 50px 20px;
+            text-align: left;
+        }
+
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        /* Listas com pontos flutuantes */
+        ul {
+            list-style-type: disc;
+            list-style-position: inside; /* Coloca os pontos junto ao texto */
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 15px; /* Espaço entre os itens */
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Marketing Digital</h1>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Bem-Vindo ao Marketing Digital</h2>
+        <p>O Marketing Digital é essencial para qualquer negócio nos dias de hoje. Através de estratégias online, é
+            possível atrair mais clientes e gerar vendas de forma escalável e eficiente.</p>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li><strong>SEO (Search Engine Optimization):</strong> Otimização para motores de busca, aumentando a
+                visibilidade do seu site.</li>
+            <li><strong>Marketing de Conteúdo:</strong> Criação de conteúdo relevante para atrair e engajar o seu
+                público.</li>
+            <li><strong>Publicidade Online:</strong> Anúncios pagos no Google, Facebook, Instagram e outros canais.</li>
+            <li><strong>Email Marketing:</strong> Estratégias de envio de emails para fidelizar e converter clientes.
+            </li>
+        </ul>
+    </section>
+
+    <!-- Benefícios Section -->
+    <section id="beneficios">
+        <h2>Benefícios do Marketing Digital</h2>
+        <p>Ao investir em Marketing Digital, sua empresa pode alcançar inúmeros benefícios, como:</p>
+        <ul>
+            <li>Aumento da visibilidade e reconhecimento da marca.</li>
+            <li>Melhoria na segmentação de público-alvo.</li>
+            <li>Mensuração e análise de resultados em tempo real.</li>
+            <li>Acesso a um mercado global 24/7.</li>
+        </ul>
+    </section>
+
+    <!-- Discord Section -->
+    <section id="discord">
+        <h2>Entre no Nosso Discord</h2>
+        <p>Tem alguma dúvida ou quer saber mais sobre Marketing Digital? Junte-se ao nosso servidor do Discord e
+            converse conosco diretamente!</p>
+        <a href="SEU_LINK_DO_DISCORD" target="_blank">
+            <button>Entrar no Discord</button>
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Marketing Digital - Todos os Direitos Reservados.</p>
+    </footer>
+</body>
+
+</html>

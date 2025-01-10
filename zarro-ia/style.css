@@ -1,0 +1,120 @@
+/* Estilo Geral */
+
+
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f86a3;
+    color: #333;
+
+
+}
+
+
+    /* HEADER */
+
+header {
+
+    background-color: #004aad;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+header.logo h1 {
+    margin: 0;
+
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+
+header nav ul li {
+
+margin-left: 20px;
+
+}
+
+
+header nav ul li {
+
+color: white;
+text-decoration: none;
+font-weight: bold;
+
+}
+
+
+ /* SEÇÕES */
+
+ section {
+
+padding: 20px;
+margin: 20px;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0,
+0, 0.1)
+
+}
+
+
+section h2 {
+
+color: #004aad;
+
+}
+
+
+/* BOTAO */
+
+button {
+
+background-color: #004aad;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+button:hover {
+
+background-color: #003080;
+
+}
+
+
+
+/* FOOTER */
+
+
+footer {
+
+text-align: center;
+padding: 10px 20px;
+background-color: #004aad;
+color: white;
+position: relative;
+bottom: 0;
+width: 100%;
+
+}
+
+
+
+
+
